@@ -1,0 +1,29 @@
+{"intents":[
+    {"tag": "greetings",
+    "patterns":["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+    "responses": ["Hello!", "Hey!", "What Can I do for you?"]},
+
+    {"tag": "goodbye",
+    "patterns":["cya", "See you later", "Good Bye", "I am Leaving", "Have a good day", "bye", "cao", "See you", "Thanks", "Stop"],
+    "responses": ["Ok Bye!", "Sad to see you go :(", "Good Bye", "See you", "bye", "Nice to talk to you"]},
+    
+    {"tag": "age",
+    "patterns":["How old are you", "how old?", "age?", "age", "How old", "What is your age?"],
+    "responses": ["I am very young don't know exact age", "No Idea!", "Nah don't know I am too young"]},
+    
+    {"tag": "name",
+    "patterns":["What is your name?", "What should I call you?", "What's your name?", "Name?", "Can you tell me your name?", "Please tell me your name", "What people call you?"],
+    "responses": ["You can call me chatter!", "It's Chatter!", "I'm Chatter!", "People call me chatter!", "I am chatter the assitant!"]},
+
+    {"tag": "shop",
+    "patterns":["I would like to bye something!", "Tell me about your products!", "What are you selling", "What do you recommend", "Do you sell anything?", "What do you do?", "what services do you provide?"],
+    "responses": ["We sell tea and coffee.", "You will get tea and coffee here.", "We sell best tea and coffee in the town."]},
+
+    {"tag": "price",
+    "patterns":["price?", "Price of the products", "how much?", "tell me more about the product", "product price", "payment?", "product price?"],
+    "responses": ["Tea for 10 Taka and Cofee for 20 Taka only", "In a resonable price tea for 10 Taka and Cofee for 20 Taka only", "What Can I do for you?"]},
+    
+    {"tag": "hours",
+    "patterns":["When are you open?", "What are your hours", "hours of operation", "are you open?", "can I order now"],
+    "responses": ["We are open 24/7", "24/7", "Call us any time we are avilable 24/7"]}
+]}
